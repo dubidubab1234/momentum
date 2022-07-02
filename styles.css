@@ -1,0 +1,14 @@
+.hidden {
+  display: none;
+}
+
+body {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
