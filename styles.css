@@ -12,3 +12,30 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+body {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#login-form {
+  padding: 10px 50px;
+}
+
+button {
+  opacity: 1;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+li {
+  list-style: square;
+}
+
+input {
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px;
+}

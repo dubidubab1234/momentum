@@ -19,7 +19,7 @@ function paintTodos(obj) {
   const newTodo = document.createElement("li");
   const span = document.createElement("span");
   const button = document.createElement("button");
-  button.innerText = "delete";
+  button.innerHTML = "&#127826";
   span.innerText = obj.name;
   newTodo.appendChild(span);
   newTodo.appendChild(button);
